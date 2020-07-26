@@ -19,6 +19,9 @@ pub use atsamd21j18a as target_device;
 #[cfg(feature = "samd51g19a")]
 pub use atsamd51g19a as target_device;
 
+#[cfg(feature = "samd51j18a")]
+pub use atsamd51j18a as target_device;
+
 #[cfg(feature = "samd51j19a")]
 pub use atsamd51j19a as target_device;
 
